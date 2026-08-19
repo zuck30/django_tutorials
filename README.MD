@@ -33,8 +33,8 @@ To run any of the tutorial modules or mini-projects on your local machine, follo
 # 1. Clone the repository
 
 ```bash
-git clone https://github.com/zuck30/django-tutorials.git
-cd django-tutorials
+git clone https://github.com/zuck30/django_tutorials.git
+cd django_tutorials
 
 ```
 
