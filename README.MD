@@ -91,6 +91,15 @@ python manage.py runserver
 
 ```
 
+# Create App
+
+> [!IMPORTANT]
+>I will Start by navigating to the selected location where I want to store the app, in my case the zuck_django_tutorials folder, and run the command below. If the server is still running, and you are not able to write commands, press [CTRL] [BREAK], or [CTRL] [C] to stop the server and you should be back in the virtual environment. I will name my app members.
+
+```bash
+python manage.py startapp members
+```
+
 # Learning Objectives
 
 * Understand the MVT (Model-View-Template) architectural pattern.
