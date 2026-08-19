@@ -100,6 +100,10 @@ python manage.py runserver
 python manage.py startapp members
 ```
 
+# Django Views
+>Django views are Python functions that take http requests and return http response, like HTML documents. A web page that uses Django is full of views with different tasks and missions. Views are usually put in a file called views.py located on our app's folder (members folder). There is a views.py in our members folder. Please Find it.
+
+
 # Learning Objectives
 
 * Understand the MVT (Model-View-Template) architectural pattern.
