@@ -41,11 +41,11 @@ cd django_tutorials
 #  2. Create and activate a virtual environment
 
 ```bash
-python -m venv thisdjango
+python -m venv --without-pip thisdjango
 # On Windows:
 venv\Scripts\activate
 # On macOS/Linux:
-source venv/bin/activate
+source thisdjango/bin/activate
 
 ```
 
