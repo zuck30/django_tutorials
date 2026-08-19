@@ -113,7 +113,9 @@ python manage.py startapp members
 Create a file named urls.py in the same folder as the views.py file. Already did that, see the code in the file
 
 >The urls.py file that we just created is specific for the members application. We have to do some routing in the root directory zuck_django_tutorials as well. This may seem complicated, but for now, just follow the instructions below.
+# Pay attention
 
+>[!IMPORTANT]
 >There is a file called urls.py on the zuck_django_tutorials folder, open that file and add the include module in the import statement, and also add a path() function in the urlpatterns[] list, with arguments that will route users that comes in via 127.0.0.1:8000/.
 
 
