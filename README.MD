@@ -80,8 +80,8 @@ python manage.py migrate
 
 
 ```
-
-*(Note: Running `migrate` translates Django's built-in blueprint files into actual tables inside your SQLite database for user authentication, admin logs, and sessions.)*
+>[!IMPORTANT]
+>*(Note: Running `migrate` translates Django's built-in blueprint files into actual tables inside your SQLite database for user authentication, admin logs, and sessions.)*
 
 # 6. Start the development server
 
