@@ -126,7 +126,7 @@ Think of it like giving someone directions to your house:
 
 Because there isn't a second "Members" street, they get lost and hit a wall.
 
-By changing the app URL to an empty string (`''`), you are saying: *"Once you arrive at **Street: Members**, stop right here—this is the house."*
+By changing the app URL to an empty string (`''`), you are saying: *"Once you arrive at **Street: Members**, stop right here this is the house."*
 
 # Learning Objectives
 
