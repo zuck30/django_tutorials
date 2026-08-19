@@ -118,8 +118,15 @@ Create a file named urls.py in the same folder as the views.py file. Already did
 >[!IMPORTANT]
 >There is a file called urls.py on the zuck_django_tutorials folder, open that file and add the include module in the import statement, and also add a path() function in the urlpatterns[] list, with arguments that will route users that comes in via 127.0.0.1:8000/.
 
+# About Urls
+Think of it like giving someone directions to your house:
 
+1. **Main URL (`zuck_django_tutorials/urls.py`):** You tell your friend, *"Go to **Street: Members**."*
+2. **App URL (`members/urls.py`):** Inside that street, you told them, *"Now walk down **Street: Members** again to find the house."*
 
+Because there isn't a second "Members" street, they get lost and hit a wall.
+
+By changing the app URL to an empty string (`''`), you are saying: *"Once you arrive at **Street: Members**, stop right here—this is the house."*
 
 # Learning Objectives
 
