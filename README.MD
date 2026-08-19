@@ -48,6 +48,12 @@ venv\Scripts\activate
 source thisdjango/bin/activate
 
 ```
+# Then Start Django Project
+
+```bash
+django-admin startproject zuck_django_tutorials 
+
+```
 
 # 3. Install dependencies
 
